@@ -1,0 +1,81 @@
+.container {
+    width: 55%;
+    margin: auto;
+    height: 550px;
+    
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(165, 11, 106);
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px 0 30px;
+}
+.game {
+
+    text-align: center;
+    background-color: rgb(8, 172, 172);
+    color: whitesmoke;
+    height: 550px;
+}
+input {
+    width: 60%;
+    height: 100px;
+    outline: 3px solid rgb(6, 83, 97);
+    text-align: center;
+    font-size: 3rem;
+    /* font-weight: bold; */
+    margin-bottom: 50px;
+}
+.btn {
+    background-color: yellow;
+    width: 50%;
+    margin: auto;
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#previous-guesses, #guesses-remaining {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.result{
+    background-color: rgb(165, 11, 106);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-bottom: 40px;
+    
+}
+.new-game {
+    background-color: rgb(165, 11, 106);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
